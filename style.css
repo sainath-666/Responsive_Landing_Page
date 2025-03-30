@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #007b5e, #00a86b);
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.cta-button {
+  background: #007b5e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background: #ff3b2f;
+}
+
+/* Hero Section */
+.hero {
+  background: #e8f5e9;
+  padding: 80px 0;
+}
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.hero .cta-button {
+  background: #ff6f61;
+  transition: background 0.3s ease;
+}
+.hero .cta-button:hover {
+  background: #ff3b2f;
+}
+
+/* Features Section */
+.features {
+  background: #f9f9f9;
+  padding: 80px 0;
+}
+.features .container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+.feature img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Benefits Section */
+.benefits {
+  background: #e8f5e9;
+  padding: 80px 0;
+}
+.benefits .container {
+  display: flex;
+  justify-content: space-between;
+}
+.benefit {
+  width: 30%;
+  padding: 20px;
+}
+.benefit h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.benefit p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Global Reach Section */
+.global-reach {
+  background: #f9f9f9;
+  padding: 80px 0;
+}
+.global-reach img {
+  width: 60%;
+  height: auto;
+}
+.global-reach h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.global-reach p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .features .container,
+  .benefits .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature,
+  .benefit {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .global-reach img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h2 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  .cta-button {
+    padding: 8px 16px;
+  }
+}
