@@ -12,12 +12,17 @@
     <header>
         <div class="container">
             <h1 class="logo">ExpressVPN</h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav>
                 <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Servers</a></li>
-                    <li><a href="#">Support</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#servers">Servers</a></li>
+                    <li><a href="#support">Support</a></li>
                 </ul>
             </nav>
             <a href="#" class="cta-button">Get ExpressVPN</a>
@@ -34,7 +39,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="features">
         <div class="container">
             <div class="feature">
                 <img src="secure-access.png" alt="Secure Access">
@@ -55,7 +60,7 @@
     </section>
 
     <!-- Benefits Section -->
-    <section class="benefits">
+    <section class="benefits" id="pricing">
         <div class="container">
             <div class="benefit">
                 <h3>Stronger Data Protection</h3>
@@ -73,7 +78,7 @@
     </section>
 
     <!-- Global Reach Section -->
-    <section class="global-reach">
+    <section class="global-reach" id="servers">
         <div class="container">
             <h2>Ultra-Fast Servers Around the Globe</h2>
             <p>160 locations across 94 countries with unlimited bandwidth.</p>
@@ -82,11 +87,12 @@
     </section>
 
     <!-- Footer Section -->
-    <footer>
+    <footer id="support">
         <div class="container">
             <p>&copy; 2025 ExpressVPN. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
