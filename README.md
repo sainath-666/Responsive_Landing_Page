@@ -25,3 +25,8 @@ A modern, responsive website template.
 ## License
 
 Free for personal and commercial use. 
+
+
+<div align="center">
+  <p>Made with ❤️ by Your Sainathreddy</p>
+</div>
