@@ -16,7 +16,7 @@ A modern, responsive website template.
 ## Links
 
 - [Git Repository](https://github.com/sainath-666/Level_1_Task_1_Landing_Page)  <!-- Replace with actual link -->
-- [Live Demo](https://your-live-demo-link)  <!-- Replace with actual link -->
+- [Live Demo](https://sainath-666.github.io/Responsive_Landing_Page/)  <!-- Replace with actual link -->
 
 ## Preview
 
